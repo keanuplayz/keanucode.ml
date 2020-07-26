@@ -1,9 +1,9 @@
 ---
-title: This is my first post.
+title: Markdown Sample Post
 description: This is a post on My Blog about agile frameworks.
-date: 2018-05-01
+date: 1999-12-01
 tags:
-  - another-tag
+  - sample
 layout: layouts/post.njk
 ---
 
