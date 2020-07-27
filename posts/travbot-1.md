@@ -6,9 +6,6 @@ tags:
   - TravBot
 layout: layouts/post.njk
 ---
-
-# TravBot Log 1 (02/29/2020)
-
 Welcome to the first [TravBot](https://github.com/keanuplayz/TravBot) update log!
 
 The project has existed *long* before this day, of course.
