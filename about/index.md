@@ -3,6 +3,7 @@ layout: layouts/post.njk
 title: About Me
 tags:
   - nav
+date: 1999-12-06
 navtitle: About
 templateClass: tmpl-post
 ---
