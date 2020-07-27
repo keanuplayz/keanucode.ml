@@ -7,6 +7,8 @@
   --navy: #17050F;
   --blue: #082840;
   --white: #fff;
+  --base-link-hover-background: #ca2828;
+  --base-link-hover-foreground: #fff;
 }
 * {
   box-sizing: border-box;
@@ -36,6 +38,11 @@ a[href] {
 }
 a[href]:visited {
   color: var(--navy);
+}
+a:focus,a:hover {
+    text-decoration: none;
+    color: var(--base-link-hover-foreground);
+    background-color: var(--base-link-hover-background)
 }
 main {
   padding: 1rem;
