@@ -3,8 +3,8 @@ layout: layouts/base.njk
 templateClass: tmpl-post
 ---
 <h1>{{ title }}</h1>
-{% if author %} <sub>Author: {{ author }}</sub> {% endif %}
-
+{% if author %} <sub>Author: {{ author }}</sub> {% endif %} <sub>|</sub> <sub>{{ date | rssDate }}</sub>
+<br>
 <hr>
 
 {{ content | safe }}
