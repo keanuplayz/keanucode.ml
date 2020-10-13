@@ -54,7 +54,7 @@ I was eventually redirected to the Asian channels. After struggling with the lan
 
 It simply served a huge folder with the following file structure:
 
-```
+```txt
 /
 |- [Label]
    |- [Album]
@@ -81,7 +81,7 @@ Doing so, I found a Korean website called [namu.wiki](https://namu.wiki) that ha
 
 Using Translate, I figured out that in the first header, it says:
 
-```
+```txt
 This track is on the collection album "再生 Regeneration", produced by big DTM-composers and illustrators that lived in Taiwan.
 ```
 
