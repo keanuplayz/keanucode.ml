@@ -35,7 +35,7 @@ module.exports = function(config) {
 
   // Copy images over from Ghost
   config.addPlugin(localImages, {
-    distPath: "dist",
+    distPath: "_site",
     assetPath: "/assets/images",
     selector: "img",
     attribute: "data-src", // Lazy images attribute
@@ -184,7 +184,7 @@ module.exports = function(config) {
   config.setBrowserSyncConfig({
     callbacks: {
       ready: (err, bs) => {
-        const content_404 = fs.readFileSync("dist/404.html");
+        const content_404 = fs.readFileSync("_site/404.html");
 
         bs.addMiddleware("*", (req, res) => {
           // Provides the 404 content without redirect.
@@ -199,7 +199,7 @@ module.exports = function(config) {
   return {
     dir: {
       input: "src",
-      output: "dist"
+      output: "_site"
     },
 
     // Files read by Eleventy, add as needed
